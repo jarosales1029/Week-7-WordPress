@@ -8,7 +8,7 @@ Time Spent: 11 Hours
 ## Pentesting Report
 
 1. XML-RPC API Multi-Call 
-  - [ ] Summary: Used WPScan to find users and then to XML-RPC multi-cal brute force the passwords of users that I found.
+  - [ ] Summary: Used WPScan to find users and then to XML-RPC multi-call brute force the passwords of users that I found.
     - Vulnerability types: Weak Passwords and a XML-RPC vulnerability where for each HTTP request, there could over 1000+ attempts. 
     - Tested in version: WordPress 4.2
     - Fixed in version: 4.7.5
