@@ -7,7 +7,7 @@ Time Spent: 11 Hours
 
 ## Pentesting Report
 
-1. (Required) XML-RPC API Multi-Call 
+1. XML-RPC API Multi-Call 
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version: WordPress 4.2
