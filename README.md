@@ -7,15 +7,15 @@ Time Spent: 11 Hours
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
+1. (Required) XML-RPC API Multi-Call 
   - [ ] Summary: 
     - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Tested in version: WordPress 4.2
+    - Fixed in version: 4.7.5
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1] N/A
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -61,6 +61,10 @@ List any additional assets, such as scripts or files
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
+- [https://github.com/1N3/](https://github.com/1N3/Wordpress-XMLRPC-Brute-Force-Exploit)
+- [https://github.com/AresS31/](https://github.com/AresS31/xmlrpc-bruteforcer)
+- [+Bilal Rizwan](https://medium.com/@the.bilal.rizwan/wordpress-xmlrpc-php-common-vulnerabilites-how-to-exploit-them-d8d3c8600b32)
+-
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
