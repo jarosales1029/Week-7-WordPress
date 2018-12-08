@@ -15,7 +15,7 @@ Time Spent: 11 Hours
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1] N/A
+    - https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
