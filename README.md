@@ -8,15 +8,15 @@ Time Spent: 11 Hours
 ## Pentesting Report
 
 1. XML-RPC API Multi-Call 
-  - [ ] Summary: 
-    - Vulnerability types:
+  - [ ] Summary: Used WPScan to find users and then to XML-RPC multi-cal brute force the passwords of users that I found.
+    - Vulnerability types: Weak Passwords and XML-RPC vurlnerability where, for each HTTP request, there could over 1000+ attempts. 
     - Tested in version: WordPress 4.2
     - Fixed in version: 4.7.5
   - [ ] GIF Walkthrough: https://github.com/jarosales1029/Week-7-WordPress/blob/master/Week%207%20-%20XML-RPC.gif
   - [ ] Steps to recreate: Open terminal and type in the command: 'wpscan --url http://wpdistilery.vm --enumerate u' to find users.  Then type in the command 'wpscan --url http://wpdistillery.vm --passwords /usr/share/wordlists/rockyou.txt --usernames admin' where after --passwords you will list your path to your wordlist and where after --usernames you will list the names you find after enumarting for them.
   - [ ] Affected source code:
     - https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/
-1. (Required) Vulnerability Name or ID
+2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -62,7 +62,6 @@ List any additional assets, such as scripts or files
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 - [https://github.com/1N3/](https://github.com/1N3/Wordpress-XMLRPC-Brute-Force-Exploit)
-- [https://github.com/AresS31/](https://github.com/AresS31/xmlrpc-bruteforcer)
 - [+Bilal Rizwan](https://medium.com/@the.bilal.rizwan/wordpress-xmlrpc-php-common-vulnerabilites-how-to-exploit-them-d8d3c8600b32)
 -
 
