@@ -12,8 +12,8 @@ Time Spent: 11 Hours
     - Vulnerability types:
     - Tested in version: WordPress 4.2
     - Fixed in version: 4.7.5
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] GIF Walkthrough: https://github.com/jarosales1029/Week-7-WordPress/blob/master/Week%207%20-%20XML-RPC.gif
+  - [ ] Steps to recreate: Open terminal and type in the command: 'wpscan --url http://wpdistilery.vm --enumerate u' to find users.  Then type in the command 'wpscan --url http://wpdistillery.vm --passwords /usr/share/wordlists/rockyou.txt --usernames admin' where after --passwords you will list your path to your wordlist and where after --usernames you will list the names you find after enumarting for them.
   - [ ] Affected source code:
     - https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/
 1. (Required) Vulnerability Name or ID
