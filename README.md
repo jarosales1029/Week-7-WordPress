@@ -16,15 +16,15 @@ Time Spent: 11 Hours
   - [ ] Steps to recreate: Open terminal and type in the command: 'wpscan --url http://wpdistilery.vm --enumerate u' to find users.  Then type in the command 'wpscan --url http://wpdistillery.vm --passwords /usr/share/wordlists/rockyou.txt --usernames admin' where after '--passwords' you will list your path to your wordlist and where after '--usernames' you will list the names you find after enumarting for them.
   - [ ] Affected source code:
     - https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/
-2. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
+2. Large File Upload Error XSS
+  - [ ] Summary: Able to XSS an alert with your message on it.  
     - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.15
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: Download an image file larger than 20mb and renamed file to Silver Surfing Cosmos<img src=x onerror=alert(1337)>.jpg.  Attempted to drag image file to WordPress and received XSS alert.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [https://hackerone.com/reports/203515]
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
