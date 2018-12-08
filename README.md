@@ -18,14 +18,14 @@ Time Spent: 11 Hours
     - https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/
 2. Large File Upload Error XSS
   - [ ] Summary: Able to XSS an alert with your message on it.  
-    - Vulnerability types:
+    - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.15
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: Download an image file larger than 20mb and renamed file to Silver Surfing Cosmos<img src=x onerror=alert(1337)>.jpg.  Attempted to drag image file to WordPress and received XSS alert.
+  - [ ] GIF Walkthrough: https://github.com/jarosales1029/Week-7-WordPress/blob/master/Week%207%20-%20Large%20File%20Upload%20Error%20XSS.gif
+  - [ ] Steps to recreate: Download an image file larger than 20mb and renamed file to Silver Surfing Cosmos<img src=x onerror=alert(1337)>.jpg.  Attempted to drag image file to upload in WordPress and received XSS alert.
   - [ ] Affected source code:
     - [https://hackerone.com/reports/203515]
-1. (Required) Vulnerability Name or ID
+3. 
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -34,24 +34,6 @@ Time Spent: 11 Hours
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
