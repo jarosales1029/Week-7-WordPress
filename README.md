@@ -9,7 +9,7 @@ Time Spent: 11 Hours
 
 1. XML-RPC API Multi-Call 
   - [ ] Summary: Used WPScan to find users and then to XML-RPC multi-cal brute force the passwords of users that I found.
-    - Vulnerability types: Weak Passwords and XML-RPC vurlnerability where, for each HTTP request, there could over 1000+ attempts. 
+    - Vulnerability types: Weak Passwords and a XML-RPC vulnerability where for each HTTP request, there could over 1000+ attempts. 
     - Tested in version: WordPress 4.2
     - Fixed in version: 4.7.5
   - [ ] GIF Walkthrough: https://github.com/jarosales1029/Week-7-WordPress/blob/master/Week%207%20-%20XML-RPC.gif
