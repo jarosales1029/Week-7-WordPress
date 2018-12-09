@@ -1,5 +1,4 @@
-# Week-7-WordPress
-Week 7 - WordPress Pentesting
+# Week 7- WordPress Pentesting
 
 Time Spent: 11 Hours
 
