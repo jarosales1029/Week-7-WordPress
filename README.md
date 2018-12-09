@@ -8,7 +8,7 @@ Time Spent: 11 Hours
 ## Pentesting Report
 
 1. XML-RPC API Multi-Call 
-  - [ ] Summary: Used WPScan to find users and then to XML-RPC multi-call brute force the passwords of users that I found.
+  - [ ] Summary: Used WPScan to find users and also to execute an XML-RPC multi-call brute force attack for the passwords of the users found.
     - Vulnerability types: Weak Passwords and a XML-RPC vulnerability where for each HTTP request, there could over 1000+ attempts. 
     - Tested in version: WordPress 4.2
     - Fixed in version: 4.7.5
@@ -17,7 +17,7 @@ Time Spent: 11 Hours
   - [ ] Affected source code:
     - https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/
 2. Large File Upload Error Cross-Site Scripting (XSS)
-  - [ ] Summary: Able to XSS an alert with your message on it.  
+  - [ ] Summary: Able to XSS an alert with a big enough file to potentially excute a code off of just the file name.  
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.15
@@ -26,11 +26,11 @@ Time Spent: 11 Hours
   - [ ] Affected source code:
     - [https://hackerone.com/reports/203515]
 3. Authenticated Stored Cross-Site Scripting (XSS)
-  - [ ] Summary: Can post a comment with that has an XSS vulernability to execute JavaScript simply by viewing the comment with the correct permissions.
+  - [ ] Summary: Can post a comment that has an XSS vulernability to execute JavaScript by simply viewing the comment and having the correct permissions.
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: https://github.com/jarosales1029/Week-7-WordPress/blob/master/Week%207%20-%20Authenticated%20Stored%20XSS.gif
   - [ ] Steps to recreate: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
   - [ ] Affected source code:
     - [https://klikki.fi/adv/wordpress2.html]
