@@ -42,7 +42,7 @@ List any additional assets, such as scripts or files
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
-- [https://github.com/1N3/](https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/)
+- [Wonder How To](https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/)
 - [+Bilal Rizwan](https://medium.com/@the.bilal.rizwan/wordpress-xmlrpc-php-common-vulnerabilites-how-to-exploit-them-d8d3c8600b32)
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
