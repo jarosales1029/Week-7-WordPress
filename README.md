@@ -32,7 +32,7 @@ Time Spent: 11 Hours
   - [ ] GIF Walkthrough: https://github.com/jarosales1029/Week-7-WordPress/blob/master/Week%207%20-%20Authenticated%20Stored%20XSS.gif
   - [ ] Steps to recreate: Would post a comment with the code found at https://klikki.fi/adv/wordpress2.html. The next user to view the code will have an XSS alert pop up with potential JavaScript code.
   - [ ] Affected source code:
-    - [https://klikki.fi/adv/wordpress2.html]
+    - [Authenticated Stored Cross-Site Scripting (XSS)](https://klikki.fi/adv/wordpress2.html).
 
 ## Assets
 
