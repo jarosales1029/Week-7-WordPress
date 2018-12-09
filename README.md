@@ -23,7 +23,7 @@ Time Spent: 11 Hours
   - [ ] GIF Walkthrough: https://github.com/jarosales1029/Week-7-WordPress/blob/master/Week%207%20-%20Large%20File%20Upload%20Error%20XSS.gif
   - [ ] Steps to recreate: Download an image file larger than 20mb and renamed file to Silver Surfing Cosmos<img src=x onerror=alert(1337)>.jpg.  Attempted to drag image file to upload in WordPress and received XSS alert.
   - [ ] Affected source code:
-    - [https://hackerone.com/reports/203515]
+    - [Large File Upload Error Cross-Site Scripting (XSS)](https://hackerone.com/reports/203515).
 3. Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: Can post a comment that has an XSS vulernability to execute JavaScript by simply viewing the comment and having the correct permissions.
     - Vulnerability types: XSS
