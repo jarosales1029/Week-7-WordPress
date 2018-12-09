@@ -14,7 +14,7 @@ Time Spent: 11 Hours
   - [ ] GIF Walkthrough: https://github.com/jarosales1029/Week-7-WordPress/blob/master/Week%207%20-%20XML-RPC.gif
   - [ ] Steps to recreate: Open terminal and type in the command: 'wpscan --url http://wpdistilery.vm --enumerate u' to find users. Then type in the command 'wpscan --url http://wpdistillery.vm --passwords /usr/share/wordlists/rockyou.txt --usernames admin' where after '--passwords' you will list your path to your wordlist and where after '--usernames' you will list the names you find after enumarting for them.
   - [ ] Affected source code:
-    - [XML-RPC Brute Force](https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/).
+    - [XML-RPC Brute Force](https://github.com/1N3/Wordpress-XMLRPC-Brute-Force-Exploit).
 2. Large File Upload Error Cross-Site Scripting (XSS)
   - [ ] Summary: Able to XSS an alert with a big enough file to potentially excute a code off of just the file name.  
     - Vulnerability types: XSS
@@ -42,9 +42,8 @@ List any additional assets, such as scripts or files
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
-- [https://github.com/1N3/](https://github.com/1N3/Wordpress-XMLRPC-Brute-Force-Exploit)
+- [https://github.com/1N3/](https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/)
 - [+Bilal Rizwan](https://medium.com/@the.bilal.rizwan/wordpress-xmlrpc-php-common-vulnerabilites-how-to-exploit-them-d8d3c8600b32)
--
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
