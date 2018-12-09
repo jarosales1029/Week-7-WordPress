@@ -49,7 +49,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+I was having some issues installing vagrant. It would just fail after the 'vagrant up' command.  Not much indication of what the error was which lead us to guess the location where it had the hiccup. The research on my particular problem was also non-exsistent. Once we figured out it was a write permissions issues, I knew that my anti-virus had write permission protections as a feature.  Disabled the anti-virus and was good to go.
 
 ## License
 
