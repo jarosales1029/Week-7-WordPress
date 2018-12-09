@@ -16,7 +16,7 @@ Time Spent: 11 Hours
   - [ ] Steps to recreate: Open terminal and type in the command: 'wpscan --url http://wpdistilery.vm --enumerate u' to find users.  Then type in the command 'wpscan --url http://wpdistillery.vm --passwords /usr/share/wordlists/rockyou.txt --usernames admin' where after '--passwords' you will list your path to your wordlist and where after '--usernames' you will list the names you find after enumarting for them.
   - [ ] Affected source code:
     - https://null-byte.wonderhowto.com/how-to/gain-control-wordpress-by-exploiting-xml-rpc-0174864/
-2. Large File Upload Error XSS
+2. Large File Upload Error Cross-Site Scripting (XSS)
   - [ ] Summary: Able to XSS an alert with your message on it.  
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -25,15 +25,15 @@ Time Spent: 11 Hours
   - [ ] Steps to recreate: Download an image file larger than 20mb and renamed file to Silver Surfing Cosmos<img src=x onerror=alert(1337)>.jpg.  Attempted to drag image file to upload in WordPress and received XSS alert.
   - [ ] Affected source code:
     - [https://hackerone.com/reports/203515]
-3. 
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+3. Authenticated Stored Cross-Site Scripting (XSS)
+  - [ ] Summary: Can post a comment with that has an XSS vulernability to execute JavaScript simply by viewing the comment with the correct permissions.
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [https://klikki.fi/adv/wordpress2.html]
 
 ## Assets
 
